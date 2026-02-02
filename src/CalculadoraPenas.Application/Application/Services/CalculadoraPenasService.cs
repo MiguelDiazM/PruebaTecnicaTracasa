@@ -52,11 +52,7 @@ namespace CalculadoraPenas.Application.Services
 
         public Pena CalcularPena(List<Delito> delitos)
         {
-            foreach(Delito delito in delitos)
-            {
-                Console.WriteLine(delito.ToString());
-                return new Pena();
-            }
+            throw new NotImplementedException();
         }
     } 
 }
