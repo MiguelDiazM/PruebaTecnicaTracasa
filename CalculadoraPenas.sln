@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculadoraPenas", "src\CalculadoraPenas.Application\CalculadoraPenas.csproj", "{FF908BA6-D6E8-4BD1-A896-9C6F69A6C310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraPenas.Test", "test\CalculadoraPenas.Application.Test\CalculadoraPenas.Test.csproj", "{5E632D88-F492-448A-A67D-18944D32DAD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF908BA6-D6E8-4BD1-A896-9C6F69A6C310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF908BA6-D6E8-4BD1-A896-9C6F69A6C310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF908BA6-D6E8-4BD1-A896-9C6F69A6C310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF908BA6-D6E8-4BD1-A896-9C6F69A6C310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E632D88-F492-448A-A67D-18944D32DAD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E632D88-F492-448A-A67D-18944D32DAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E632D88-F492-448A-A67D-18944D32DAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E632D88-F492-448A-A67D-18944D32DAD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9AF16A7-C596-418A-8B49-584FE4B5470B}
+	EndGlobalSection
+EndGlobal
